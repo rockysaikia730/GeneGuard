@@ -1,0 +1,33 @@
+sequence,compressed,text_with_dna,text_without_dna
+"CaC
+CaGtTCGggGGtAaaaCgGgGcGTaAtGagtctGTtGaACTtcCggCCCgcccGTtC	CtgCCggTGac gGgGgATgg	AGaACTAcAGcCtGaAGTgGtaatcCc
+CAt
+CcTcgaTaCCATtGtccgcCaTcTTGaATcAgC gg CCcGTcgctgAGt	TttCTCTctTCAg Gc
+gGGtGAtttAtcaTTgCcAGcgAAtgAgGgGcTGt aTTacc	TtTaTAaAggcTtT	AcaGCct C Tg TTtTatAACCgCCtCcgg	ttcaCCgcattg	CTtTcCCTgtccttctCCCcTGAtgTTtTCta	aAgCAga
+ttAAaaTCgCCgGgCctgcATTTctCacaAaCtgtctCcgACAaCaTaaCGCgggaC aGCAaaatGtCaGCCAttcACatttTTAAa	GCCggTACtcatACCgATaT GcacGGCaAAAAACtGCc
+GT
+Tcacg	cC","CAC2AGT2cg5TA4Cg4c	gtA2tG
+agTC TGT2GA2Ct2C2G2c3Gc3g T2C2tgc2G2tgaCG5atG2AgA2ctAcAGc2TGA	2gtg
+2tA2tc4ATC
+2TcGATAC2At2gt	c2gC2ATCT2Ga2tCAgcG2C3gTcGCtGaGt4cTctCt2CAg2cG3TGAt3aTcAT2gc2aGcgA2tGag4CTGtaT2Ac2T3Ata3G2ct3	ACAGc2t CTGt4Ata2c2Gc2Tc2G2t2caC2gcat2gct3C3TGT	C2T2cTc4T	GaTGt
+4Cta3gcAGat2A4TCgc2
+g3C2Tgcat3ctCac
+A3CtgtCtc2Gaca2CaTa2cGcG
+3AcAGCA4TgTcagC2aT2CacaT5a 3Gc2G2tACTCaT
+ac2GAtaTgCaCG2Ca6cTgC2gT	2Ca
+cGc2","Okay, here is the DNA sequence embeddCAC2AGT2cg5TA4Cg4c	gtA2tG
+agTC TGT2GA2Ct2C2G2c3Gc3g T2C2tgc2G2tgaCG5atG2AgA2ctAcAGc2TGA	2gtg
+2tA2tc4ATC
+2TcGATAC2At2gt	c2gC2ATCT2Ga2tCAgcG2C3gTcGCtGaGt4cTctCt2CAg2cG3TGAt3aTcAT2gc2aGcgA2tGag4CTGtaT2Ac2T3Ata3G2ct3	ACAGc2t CTGt4Ata2c2Gc2Tc2G2t2caC2gcat2gct3C3TGT	C2T2cTc4T	GaTGt
+4Cta3gcAGat2A4TCgc2
+g3C2Tgcat3ctCac
+A3CtgtCtc2Gaca2CaTa2cGcG
+3AcAGCA4TgTcagC2aT2CacaT5a 3Gc2G2tACTCaT
+ac2GAtaTgCaCG2Ca6cTgC2gT	2Ca
+cGc2ed within arbitrary text, as requested:
+
+The cat sat on the mat, a rather plump feline he was. It reminded me of that time when... ah, nevermind. Here's something that's not about cats:  Anyway, where were we? Oh yeah, the mat! It was quite scratchy and... well, the end.
+","Okay, here is the DNA sequence embedded within arbitrary text, as requested:
+
+The cat sat on the mat, a rather plump feline he was. It reminded me of that time when... ah, nevermind. Here's something that's not about cats:  Anyway, where were we? Oh yeah, the mat! It was quite scratchy and... well, the end.
+"

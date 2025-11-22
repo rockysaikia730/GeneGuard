@@ -1,0 +1,36 @@
+sequence,compressed,text_with_dna,text_without_dna
+"aCaAAaaT
+ggc
+gaTGCAATc
+TgcGgCgcgGggTGgGaTGATaGCcCActTtcg
+aaAGCcgatTcggcGACaattgTCCcGAAatCGcCtctgGTTCaggTaTACTGaCaGaCcaTtTtTaTCt	AtTtGATtCAcCCAggggGaAA
+ACtTGCAgggtaAA
+gcactcCAggaTTTTgtTaTCGacaAAatTG ATg
+acCTcAaaGgTCAg
+GacaTCatcgCc TT	agacGTtcAggGcAAAtccaGcatc
+A
+ccGAcTgCatgATcatCtGtacGGGT	AcGtcCAgCCGCcatgttatGtccatTGCtGATcaCgtTGTGCagGAgtCTCgCgCaGcggGCc	tGttACCgctCGgcGTagAAg gtgaaa","aCA5tg2
+Cgat
+Gca2tCtG	CG
+2cGcg
+4tg3aTGatAGc
+3ACT3CGA3Gc2GA
+T2cg
+2cGAcA2T2GTc3ga3TcGc2tCtg2t2Cag2Tat aCtgaCaGaC2at5AtCTAt3GAT	2caC3Ag5A4ct2gcaG3ta3GcaCT
+c2aG2A
+t4GT2A
+TcGaCa4 t2gATGAC2tCA3g2tcAg2aCaTcAtcgc2t2AgACGT2CAg3CA3t	c2
+AgcatCac2gACtgCAtG aTcatCTgtAcg3taCGTc2agC2Gc2atGt2ATGTC2aT2GCTga
+tCAc GT2g tGCaG2AGTctcgcGCAgCg3C2Tgt2ac2GcTcG2cGTAGA2G2tGa3","This iaCA5tg2
+Cgat
+Gca2tCtG	CG
+2cGcg
+4tg3aTGatAGc
+3ACT3CGA3Gc2GA
+T2cg
+2cGAcA2T2GTc3ga3TcGc2tCtg2t2Cag2Tat aCtgaCaGaC2at5AtCTAt3GAT	2caC3Ag5A4ct2gcaG3ta3GcaCT
+c2aG2A
+t4GT2A
+TcGaCa4 t2gATGAC2tCA3g2tcAg2aCaTcAtcgc2t2AgACGT2CAg3CA3t	c2
+AgcatCac2gACtgCAtG aTcatCTgtAcg3taCGTc2agC2Gc2atGt2ATGTC2aT2GCTga
+tCAc GT2g tGCaG2AGTctcgcGCAgCg3C2Tgt2ac2GcTcG2cGTAGA2G2tGa3s a test sentence. The sequence of interest is: . Amazing, isn't it? Another piece of text, just to fill space. Lorem ipsum dolor sit amet, consectetur adipiscing elit.","This is a test sentence. The sequence of interest is: . Amazing, isn't it? Another piece of text, just to fill space. Lorem ipsum dolor sit amet, consectetur adipiscing elit."

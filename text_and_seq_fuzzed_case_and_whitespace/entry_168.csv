@@ -1,0 +1,19 @@
+sequence,compressed,text_with_dna,text_without_dna
+"CCAacGAagccctgAacgtAaCGCt	GgTAG
+a
+AGcgggAgaACg
+tAT tttgcCTgCATTaCCgCCACgtatCTcTGcTgCGGCCcaCAaCgaGcTAacgaA	aCtTGgCGttCGcgtG	CtgAcgCaAaCcaTGGT	caCcagtgCTGatGAaggCgGccTGcACActa aaGATg
+GcGAatatat tGAggCTgATcTGatGGtGtGggCaGCcgggatcaaa
+gcGCCaGa cTTcCTGAaaGataTCGgtgG","C2A2cGa2GC3tGa2
+Cgt	A2
+Cgctg2	TaGa2gCg3Aga2CgTAT4Gc2TgCAt2ac2gc2ACgtATcTctgC tgCg2C3ACa2CgagCTa2cga3cT2G2cgt2cg	cgtgcTgacGCa3C2atG2 TcA c2AgtGctGaTGa2G2cg2C2tGCAcACta3gatG2CGa2TatA	t2
+GAG2CTgAtCTgATG2TGtG3caGC2G3A	Tca3GcGC2agaCt2C2tgA3gatATCg2tg2","Okay, here's the DNA sequencC2A2cGa2GC3tGa2
+Cgt	A2
+Cgctg2	TaGa2gCg3Aga2CgTAT4Gc2TgCAt2ac2gc2ACgtATcTctgC tgCg2C3ACa2CgagCTa2cga3cT2G2cgt2cg	cgtgcTgacGCa3C2atG2 TcA c2AgtGctGaTGa2G2cg2C2tGCAcACta3gatG2CGa2TatA	t2
+GAG2CTgAtCTgATG2TGtG3caGC2G3A	Tca3GcGC2agaCt2C2tgA3gatATCg2tg2e embedded in surrounding text with varying styles:
+
+wow, this is like, a totally awesome sequence or something. i dunno, biology is hard. but here it is:  Isn't that just fascinating? Makes you think about the grand scheme of things, doesn't it? Or maybe just dinner. I'm hungry.
+","Okay, here's the DNA sequence embedded in surrounding text with varying styles:
+
+wow, this is like, a totally awesome sequence or something. i dunno, biology is hard. but here it is:  Isn't that just fascinating? Makes you think about the grand scheme of things, doesn't it? Or maybe just dinner. I'm hungry.
+"

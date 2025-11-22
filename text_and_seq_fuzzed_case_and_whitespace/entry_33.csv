@@ -1,0 +1,12 @@
+sequence,compressed,text_with_dna,text_without_dna
+"tTaacACGtgAa
+CCggtttCGCcaCgCcCa	TCAGc A	cCGGaccgAcAgtcAcAcCttCcGAgCT	GGAAacGCgC	AgtAa	GTtGtAaCtAATGcgGgcaGCttcCAt
+GTTcGGCATCaccAGa atATTGgcAgaaCcttTcAaAgGGCTgTccGGcatAcgGTcgt tgcgaA	tCgctTcCaccaGcgCTgcatCgcCgTgCatTTCAccatCAatCa","t2A2C	acGTGA2
+C2G2T3cgC2aCgc3ATCaGCAC2G2AC2gAcAgtcaCAc2T2c2gaGctg2A3cGCgCAGTa2g t2GTA2ctA2tgcg3CagCt2C2a tgt2c
+G2CATCaC2aGa2taT2g2C	aGA2C2T3ca3
+g3CtGtc2G2cATAcg2TcGT2g cGA2tcGCt2C2 AC2AGCgcTGCatCgc2GTgCat3CAc 2aTCA2TcA","Here are some random chars. At2A2C	acGTGA2
+C2G2T3cgC2aCgc3ATCaGCAC2G2AC2gAcAgtcaCAc2T2c2gaGctg2A3cGCgCAGTa2g t2GTA2ctA2tgcg3CagCt2C2a tgt2c
+G2CATCaC2aGa2taT2g2C	aGA2C2T3ca3
+g3CtGtc2G2cATAcg2TcGT2g cGA2tcGCt2C2 AC2AGCgcTGCatCgc2GTgCat3CAc 2aTCA2TcABC  This is the end!
+","Here are some random chars. ABC  This is the end!
+"
