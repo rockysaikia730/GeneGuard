@@ -1,0 +1,15 @@
+sequence,compressed,text_with_dna,text_without_dna
+"1 AGCCGTTTCAAGGCCAACCCGAAAACGGTCTTTCTGATCGGTGGCGCAAAAGATGTGCCT
+61 TACGATGAAATAATTAAAGCACTGAACTTGTTACATAGTGCGGGTGTGAAATCGGTTGGT
+121 TTAATGACGCAGCCTATCTAAACATCTGCGTTTCCCTTGCTTGAAAGAGAGCGGGTAACA
+181 GGCG","1 AGC2GT3CA2G2C2A2C3GA4CG2TCT3CTGATCG2TG2CGCA4GATGTGC2T2ACGATG
+61 A3TA2T2A3GCACTGA2CT2GT2ACATAGTGCG3TGTGA3TCG2T2G2T3A2TGACGCAG
+121 C2TATCTA3CATCTGCGT3C3T2GCT2GA3GAGAGCG3TA2CAG2CG","Okay, here's the output string with the DNA sequence embedded:
+
+The ancient scrolls spoke of a hidden key...a key unlocked by the sequence.  I think I found it! Stand back, here it comes:   Whew.  Did it work?  Is the vault open?  Oh, and could someone grab me a coffee, I'm exhausted after all that1 AGC2GT3CA2G2C2A2C3GA4CG2TCT3CTGATCG2TG2CGCA4GATGTGC2T2ACGATG
+61 A3TA2T2A3GCACTGA2CT2GT2ACATAGTGCG3TGTGA3TCG2T2G2T3A2TGACGCAG
+121 C2TATCTA3CATCTGCGT3C3T2GCT2GA3GAGAGCG3TA2CAG2CG typing.
+","Okay, here's the output string with the DNA sequence embedded:
+
+The ancient scrolls spoke of a hidden key...a key unlocked by the sequence.  I think I found it! Stand back, here it comes:   Whew.  Did it work?  Is the vault open?  Oh, and could someone grab me a coffee, I'm exhausted after all that typing.
+"

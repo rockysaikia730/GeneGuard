@@ -1,0 +1,9 @@
+sequence,compressed,text_with_dna,text_without_dna
+"GCGTAaTcA gcgCGcAgAgTAcCaGcCagTGcGtttGcCGgAtT
+gGTCGCGCCCAGCAg ATcGCgGtGACgCTgaAC	GgcgTtTtcAcCTTCCAgcACggAAAccacgaTCggG
+CcAGAggtCatga
+AttCAacC","Gcgta2TcAgcGCgCAgAGTac2agc 2
+AgTGCgt3 gC2G	2aT2G2tcGcGC3AGCAGaTcGCG2T GACgCTga2cG2cGt4c A c2T2C2agCaCg2a 3C2acGAtCG3c2Ag AG2TCAtGa2T2CA2
+c2","Here's the weird string we extracted. Don't touch it! qwertzuiopasdfghjklölkjhgfdsayxcvbnm  It just aGcgta2TcAgcGCgCAgAGTac2agc 2
+AgTGCgt3 gC2G	2aT2G2tcGcGC3AGCAGaTcGCG2T GACgCTga2cG2cGt4c A c2T2C2agCaCg2a 3C2acGAtCG3c2Ag AG2TCAtGa2T2CA2
+c2ppeared outta nowhere, man. What's it mean? Who knows. ZzzZZz.","Here's the weird string we extracted. Don't touch it! qwertzuiopasdfghjklölkjhgfdsayxcvbnm  It just appeared outta nowhere, man. What's it mean? Who knows. ZzzZZz."

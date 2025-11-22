@@ -1,0 +1,27 @@
+sequence,compressed,text_with_dna,text_without_dna
+"tcGTCcGgaAaTGCGCCTGAaActggCgagcattC
+tgGcgAagT tGAtG	AaTCtgccAGcgCcgaA
+tCcTGaAg	CgcCGCGtgaaggcgT	agTgGtacCCcCGgtaccGGAtcaggaaCCTGAGGccTGataacTGataAGGGcaGgGCcact	g gc TcTg
+ccctTTtGCtATTctcacC	GtAAcGAatcA
+GC	gga	TACcAtgaTTATcaAacGcacT
+C	CtCAagcc
+gCgTcgccTcTggCTTcGTggCT t TcTT AtctgGAAaACctgCacaGtAAAacTAtcgaTCTC	GGCCTt
+GagCGCGTgaGCCtGGTcG cGgCGCg	TCtTGGCGtcc TgAaaCcAGcGccaTtTGtGTTTaCcgTt","TcgTc2g2a3T gCGc2tGA3cTg2cGaGCAt2ctg2cGA2G T2G	atga2TcTgc2agCGC2gA	2tc2tga2Gcgc2GcgTgA 2
+g2CgTAGTG2tAc5g2tac2G2AtCag2
+a2c2tgag2C2tGATa2CTGatA2g3cAG3c2ActG2cTCtGC3T4Gc
+tAT2cTCac2G ta2cGA2TcagCG2AtAc2AtGat2aTcA	3cGCactC2tCA2gC2
+GcgTcGC2t	CTG2cT2cGTg2Ct3 CT2AtCTg2a4	C2TGCAcAgtA4cTATcgATctCg2C2T2gaGcGcgTgaG C2TG2tCgCg2
+CgCG
+TcT2G2cgtc2TGA3c2AGcg	c2At3Gt gT3ac2GT2","Okay, here's the output with the DNA sequence embedded as requested:
+
+The quick brown fTcgTc2g2a3T gCGc2tGA3cTg2cGaGCAt2ctg2cGA2G T2G	atga2TcTgc2agCGC2gA	2tc2tga2Gcgc2GcgTgA 2
+g2CgTAGTG2tAc5g2tac2G2AtCag2
+a2c2tgag2C2tGATa2CTGatA2g3cAG3c2ActG2cTCtGC3T4Gc
+tAT2cTCac2G ta2cGA2TcagCG2AtAc2AtGat2aTcA	3cGCactC2tCA2gC2
+GcgTcGC2t	CTG2cT2cGTg2Ct3 CT2AtCTg2a4	C2TGCAcAgtA4cTATcgATctCg2C2T2gaGcGcgTgaG C2TG2tCgCg2
+CgCG
+TcT2G2cgtc2TGA3c2AGcg	c2At3Gt gT3ac2GT2ox jumps over the lazy fox, or does it? That's a question for the ages, or at least for this silly example. Anyhow, here we go. This is a test.  Okay, now some more text. La di da. Testing, testing, 1, 2, 3. All done! I hope it works.
+","Okay, here's the output with the DNA sequence embedded as requested:
+
+The quick brown fox jumps over the lazy fox, or does it? That's a question for the ages, or at least for this silly example. Anyhow, here we go. This is a test.  Okay, now some more text. La di da. Testing, testing, 1, 2, 3. All done! I hope it works.
+"

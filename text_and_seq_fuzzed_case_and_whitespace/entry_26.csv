@@ -1,0 +1,19 @@
+sequence,compressed,text_with_dna,text_without_dna
+"t	cggCGTTCCCag	CCAtgCC	gcGcAggcgCtGGAaaT GgG
+GgCCgACgcgGtGTTAGTGAATACGGcgAttgc
+CgtCGCGGAC GatcCCgtcaaCATGgc
+GaagGcatttCGtcTGGCAGTagAAgCAgGCCtgcTggCaCctCAgTccgGAcCgggCaGccgCagtT	AttTtgCTCatGCCaCcAG","TcG2cgT2	C	3a
+GC2ATgC2GcgcAg2CgcTg2a3TG5c2GACgcg2tgT2aGtGA2Tacg2cGa	T	2GC2gtcGCg2acgatC3G Tca2CAtg2CgA 2g	2cAt3CG	tCTg2cagtaGa2GCaG2c2
+tGcTg2	cac2tcaGtC2G2AC2G
+3Cagc2GCAGt2At4GCtCATGc	2aC2a
+G","Ok, here is the DNA embedded in arbitrary text:
+TcG2cgT2	C	3a
+GC2ATgC2GcgcAg2CgcTg2a3TG5c2GACgcg2tgT2aGtGA2Tacg2cGa	T	2GC2gtcGCg2acgatC3G Tca2CAtg2CgA 2g	2cAt3CG	tCTg2cagtaGa2GCaG2c2
+tGcTg2	cac2tcaGtC2G2AC2G
+3Cagc2GCAGt2At4GCtCATGc	2aC2a
+G
+here is some leading text.  trailing text here!
+","Ok, here is the DNA embedded in arbitrary text:
+
+here is some leading text.  trailing text here!
+"

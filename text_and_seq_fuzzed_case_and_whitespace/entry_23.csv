@@ -1,0 +1,29 @@
+sequence,compressed,text_with_dna,text_without_dna
+"TccACgcACtgTt
+cGTGGaactcgttGT
+gAtgacGGaAtGAGACCaggTAAcgcAGCA g
+t
+tttTCTcTgTCGatTtGGCgtccacgaTA cTgAAT TtGGATCgAtcccCAaTctGg
+ttgaTGgGTGa tCAGgCa
+GTTTgaTTTc
+AgcAG	gTgg
+ctgacaAgCGtCTCTTccactAcTTttTcacca
+ctgGTggcATTCTCcagaTagtc
+agtAgTGaATtcAt
+A gtta	TCGaTagTGAT
+At	ACtgATCaTcaAT
+GcAAGtGCcatTgaaaTgAcCtATcGgct	GgCcttcCAGtTc aTCAaGaCgaTAtAa","Tc2AcgCaCTgT2 cgTg2a 2Ct	CgT2Gtg
+ATgAcG2A2tGaGac2ag2tA2CgCagCAGT5CtctgtCGAt3g2cgtC2ACgaTActGa2T3g2ATcGATc4a2tcTg2T2gATG3TgAtcAg2C	aGT3gAT3CaGCag2Tg2CtGaca2GcGTCTcT2C2ACTAcT5c Ac2acTG2tG2Ca	T2CTc2AgATAGTCaGTagtGa2t2C	AtaGT2atcGATAGTgatAtactGAtCAtca2tgcA2gtGc2AT2GA3
+TGaC2taTCg2CTg2c2t2c2agt2catCa2GAcGATatA2","Okay, here's the output with the DNA sTc2AcgCaCTgT2 cgTg2a 2Ct	CgT2Gtg
+ATgAcG2A2tGaGac2ag2tA2CgCagCAGT5CtctgtCGAt3g2cgtC2ACgaTActGa2T3g2ATcGATc4a2tcTg2T2gATG3TgAtcAg2C	aGT3gAT3CaGCag2Tg2CtGaca2GcGTCTcT2C2ACTAcT5c Ac2acTG2tG2Ca	T2CTc2AgATAGTCaGTagtGa2t2C	AtaGT2atcGATAGTgatAtactGAtCAtca2tgcA2gtGc2AT2GA3
+TGaC2taTCg2CTg2c2t2c2agt2catCa2GAcGATatA2equence embedded within surrounding text, adhering to the specified rules:
+
+So I was checking this data and then boom, found it here...wait for it...
+
+... end of file.  Checksum good. Phew! Is everything done? yes. Good.
+","Okay, here's the output with the DNA sequence embedded within surrounding text, adhering to the specified rules:
+
+So I was checking this data and then boom, found it here...wait for it...
+
+... end of file.  Checksum good. Phew! Is everything done? yes. Good.
+"

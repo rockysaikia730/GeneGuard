@@ -1,0 +1,8 @@
+sequence,compressed,text_with_dna,text_without_dna
+"Tgc	cgtatGGctAtACCCTGgtGGatTAtaC
+GtAtT CATGGAGTgactAcCTCagCaCC atTgATaaccgG GgcTggCggTgg
+CGTtcCACGggA gaCctG cAgAcT","tGc2gTatG2cTATaC3tG2Tg2AT2AtACgTAT2CAtG2Agtg Actac2tCagcaC2AT2GaTa2C2g4Ctg2Cg2Tg2cg
+t2C2ACg3agaC	2tGcaGACt","The quick brown fox jumps over the lazy dog.  this is the end.tGc2gTatG2cTATaC3tG2Tg2AT2AtACgTAT2CAtG2Agtg Actac2tCagcaC2AT2GaTa2C2g4Ctg2Cg2Tg2cg
+t2C2ACg3agaC	2tGcaGACt
+","The quick brown fox jumps over the lazy dog.  this is the end.
+"
