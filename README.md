@@ -1,6 +1,6 @@
 # 🧬 Gene-Guard: Real-Time Genomic Data Leak Prevention 
 
-**Gene Guard** is a Python tool designed to parse and flag data files containing genomic data using machine learning (NLP, CNN) and rule-based algorithms. Beyond simple detection, it is capable of identifying and extracting genetic sequences embedded within mixed text
+**Gene Guard** is a Python tool designed to parse and flag data files containing genomic data using machine learning (NLP, CNN) and rule-based algorithms. Beyond simple detection, it is capable of identifying and extracting genetic sequences embedded within mixed or obfuscated text.
 
 ## Installation
 
