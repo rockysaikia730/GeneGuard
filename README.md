@@ -55,3 +55,8 @@ python ./src/ML_clasifier/run_parser.py <filepath> --model <model_type>
 ## Dataset
 
 For detailed information regarding the datasets used for training, testing, and validation of these models, please refer to **[DATASET.md](https://github.com/rockysaikia730/GeneGuard/blob/main/data/DATASET.md)**.
+
+## Technical Report
+
+For a comprehensive overview of the system architecture and methodology, please refer to the project report:
+**[Gene Guard: Real-Time Genomic Data Leak Prevention](https://github.com/rockysaikia730/GeneGuard/blob/main/docs/Gene%20Guard_%20Real-Time%20Genomic%20Data%20Leak%20Prevention.pdf)**
