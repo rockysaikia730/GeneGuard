@@ -52,6 +52,14 @@ python ./src/ML_clasifier/run_parser.py <filepath> --model <model_type>
 
 -----
 
+#### Risk Detection Demo
+
+To check the risk level of a specific text sequence using a trained checkpoint, use the demo script:
+
+```bash
+python genomic_detector_demo.py --checkpoint ./outputs/checkpoints/after_hard --threshold <Threshold> --text <text>
+```
+
 ## Dataset
 
 For detailed information regarding the datasets used for training, testing, and validation of these models, please refer to **[DATASET.md](https://github.com/rockysaikia730/GeneGuard/blob/main/data/DATASET.md)**.
