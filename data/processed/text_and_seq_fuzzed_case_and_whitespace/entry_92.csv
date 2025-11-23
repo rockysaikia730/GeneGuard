@@ -1,0 +1,19 @@
+sequence,compressed,text_with_dna,text_without_dna
+"atTgtgTtcatcaCc	gCGtGgAAagaacatgcGGTaGaagcgTt	tgAaCtGGAGgcgtttGacTacATtctCaAac
+CgTATCaGgA
+GtCACGTAtTACcgGGaTg CtGcaAaaAC	TgG	aaGCgG
+cCTGgcAAcAa
+CagcAgacCaGcAgTA
+CGcCtgcCGcGacG","a	t2gtGt2catcaC2GcgtG2a3gA2CAtg Cg2T	aga 2GcGt3Ga2cT	G 2AG2CGt3gaCtACAT2cTcA3c2Gt
+A
+tCag2agTcacgtAt2ac2g3AtGCtgcA5CTg2a2GcG2C2t	G2Ca2cA2cA
+gCag ac2AGcAGTaCgC2tGc2GCGAcG","Okay, here's the DNA sequence embedded within arbitrary text, following all the rules:
+
+I was just readinga	t2gtGt2catcaC2GcgtG2a3gA2CAtg Cg2T	aga 2GcGt3Ga2cT	G 2AG2CGt3gaCtACAT2cTcA3c2Gt
+A
+tCag2agTcacgtAt2ac2g3AtGCtgcA5CTg2a2GcG2C2t	G2Ca2cA2cA
+gCag ac2AGcAGTaCgC2tGc2GCGAcG a fascinating article about the history of cheese graters. Did you know the first ones were made of stone? Anyway, I then stumbled across this:  Isn't that wild? Makes you think. Good times.
+","Okay, here's the DNA sequence embedded within arbitrary text, following all the rules:
+
+I was just reading a fascinating article about the history of cheese graters. Did you know the first ones were made of stone? Anyway, I then stumbled across this:  Isn't that wild? Makes you think. Good times.
+"

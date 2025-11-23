@@ -1,0 +1,14 @@
+sequence,compressed,text_with_dna,text_without_dna
+"1 ATGTCACGCTCTATGGAGGCCTGATGCTAGCAGATAATTACCGCGCTTACATGTTTGGGG
+61 CAGGTAAGTATCATGAGCAACTTGGTGCACTTTCACTTGATTTCACTCAAAGTAATTCAA
+121 AATTTAGGTCAGAATTGACCAG","1 ATGTCACGCTCTATG2AG2C2TGATGCTAGCAGATA2T2AC2GCGCT2ACATGT3G4CAG
+61 2TA2GTATCATGAGCA2CT2G2TGCACT3CACT2GAT3CACTCA3GTA2T2CA4T3AG2T
+121 CAGA2T2GAC2AG","1 ATGTCACGCTCTATG2AG2C2TGATGCTAGCAGATA2T2AC2GCGCT2ACATGT3G4CAG
+61 2TA2GTATCATGAGCA2CT2G2TGCACT3CACT2GAT3CACTCA3GTA2T2CA4T3AG2T
+121 CAGA2T2GAC2AGOkay, here's the output with the DNA sequence embedded as requested:
+
+The rain in Spain falls mainly on the plain, but I'm more interested in this genetic sequence my lab assistant gave me. I hope it is what I think it is.  I'll run the analysis now to be SURE. Fingers crossed! It's super late, and I'm getting kinda hungry.
+","Okay, here's the output with the DNA sequence embedded as requested:
+
+The rain in Spain falls mainly on the plain, but I'm more interested in this genetic sequence my lab assistant gave me. I hope it is what I think it is.  I'll run the analysis now to be SURE. Fingers crossed! It's super late, and I'm getting kinda hungry.
+"

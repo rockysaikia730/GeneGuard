@@ -1,0 +1,8 @@
+sequence,text_with_dna,text_without_dna
+TCAGGTCGTGATGACGCCGCCGTTTTCGGGTTTATCGACAAAGAACAGCTGGATAAATATGTCGCTAACGGCGGCAAACGTAGCGACTGGACGGTGAAATTCGCCGAAAACCGCAGTCAGGACGGAACGTTGCTGGGCTACTCGCTATTGCAGGAGTCGGTGGATCAGGCCAGCTATATGTACAGCGATAACCATTATCTGGCGGAGATGGCGACGATTCTCGGTAAGCCGGAAGAGGCCAAACGCTATCGTCAGTTAGCACAACAGCTCGCGGACTACATCAACACTTGTAT,"Okay, here's the DNA sequence embedded in surrounding text, following your specifications:
+
+This is just some random filler text. I need to add a bunch of characters before the actual sequence so that the output meets the length requirements. Blah blah blah, here it comes! TCAGGTCGTGATGACGCCGCCGTTTTCGGGTTTATCGACAAAGAACAGCTGGATAAATATGTCGCTAACGGCGGCAAACGTAGCGACTGGACGGTGAAATTCGCCGAAAACCGCAGTCAGGACGGAACGTTGCTGGGCTACTCGCTATTGCAGGAGTCGGTGGATCAGGCCAGCTATATGTACAGCGATAACCATTATCTGGCGGAGATGGCGACGATTCTCGGTAAGCCGGAAGAGGCCAAACGCTATCGTCAGTTAGCACAACAGCTCGCGGACTACATCAACACTTGTAT And now we need some random characters added to the end. This is fun. Testing testing 1 2 3. That should do it.
+","Okay, here's the DNA sequence embedded in surrounding text, following your specifications:
+
+This is just some random filler text. I need to add a bunch of characters before the actual sequence so that the output meets the length requirements. Blah blah blah, here it comes!  And now we need some random characters added to the end. This is fun. Testing testing 1 2 3. That should do it.
+"

@@ -1,0 +1,15 @@
+sequence,compressed,text_with_dna,text_without_dna
+"1 GGCAAACCGATAGCAATACCACCCAACAGACAGCCCAGAAAAATCAGCACAGCCATGATT
+61 AAGCTCCTTGCGGTGGCGACGTTAGAGAATTGCTACGCGTGATGAGTTGATATAAATGAC
+121 GCAGTTCAAAGAATGCGATAACGAGGCTGGTGGGCAGACAAGCGGCATACATCAGGCCGA
+181 TGGGTAAACC","1 G2CA3C2GATAGCA2TAC2AC3A2CAGACAGC3AGA5TCAGCACAGC2ATGAT2A2GCTC
+61 2T2GCG2TG2CGACGT2AGAGA2T2GCTACGCGTGATGAGT2GATATA3TGACGCAGT2C
+121 A3GA2TGCGATA2CGAG2CTG2TG3CAGACA2GCG2CATACATCAG2C2GATG3TA3C2","Okay, here's the DNA sequence embedded in surrounding text, following your rules:
+
+The lab tech muttered something about needing to run the sequencer again. ""I swear, this machine..."" Then she typed:  ugh, still getting weird readings. Maybe the buffer is cont1 G2CA3C2GATAGCA2TAC2AC3A2CAGACAGC3AGA5TCAGCACAGC2ATGAT2A2GCTC
+61 2T2GCG2TG2CGACGT2AGAGA2T2GCTACGCGTGATGAGT2GATATA3TGACGCAGT2C
+121 A3GA2TGCGATA2CGAG2CTG2TG3CAGACA2GCG2CATACATCAG2C2GATG3TA3C2aminated? Time for coffee!
+","Okay, here's the DNA sequence embedded in surrounding text, following your rules:
+
+The lab tech muttered something about needing to run the sequencer again. ""I swear, this machine..."" Then she typed:  ugh, still getting weird readings. Maybe the buffer is contaminated? Time for coffee!
+"

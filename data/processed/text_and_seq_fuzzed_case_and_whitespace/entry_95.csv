@@ -1,0 +1,13 @@
+sequence,compressed,text_with_dna,text_without_dna
+"TaaCCCAtTcCCcGGCAAaaccGTtCAgCggCggcaGcgCAGCcAtTGcC	aTcAGcccGActAacaTGgCgatGgAGAtaAccgGcatttTCtT
+GccaAtACCACcGagtTTTtCGA tA
+TcgcGATg
+ACCGgTaCGga	ACcAGacgcTCCcCGCaccaAgG
+AAcagTAcgctCTtgaACAGGCTa tgGttaAgcagATggTAcaGacCA CCAACC	agaccA
+AGGGca	AtcAGcgccGgTTGTTCGAgCgCGatAcC","tA2c3AT2C4G2Ca4c2gT2cAGCg2cg2cAGCGcaGC2at2gC 2aTc AGC3GA cTa2 cat	G2
+cGaTg2AG atA2C2g2cAt4ct2gC2A2tAC2AC2GAGt5cg ATAtCGcgatgAc2g2tACg2a2C2Agac gctC 4gCAC2A2
+g2a2caGTAc gcTct2gA2Ca g2ctATg2T2A 2GCaGatg2TaCaGaC2ac2a2C2agAC2A2g3cA2tcaGCgC2g2
+T2gT2CGAGcGCg	atAc2","This is the raw data. It's just a sequence. Don't interpret. Just present. It's liktA2c3AT2C4G2Ca4c2gT2cAGCg2cg2cAGCGcaGC2at2gC 2aTc AGC3GA cTa2 cat	G2
+cGaTg2AG atA2C2g2cAt4ct2gC2A2tAC2AC2GAGt5cg ATAtCGcgatgAc2g2tACg2a2C2Agac gctC 4gCAC2A2
+g2a2caGTAc gcTct2gA2Ca g2ctATg2T2A 2GCaGatg2TaCaGaC2ac2a2C2agAC2A2g3cA2tcaGCgC2g2
+T2gT2CGAGcGCg	atAc2e a secret code: jkhdfsgkjh34jkh3k4j  And after all that, we have this trailing bit of text. 98765. Not sure if it's significant. Just here. end.","This is the raw data. It's just a sequence. Don't interpret. Just present. It's like a secret code: jkhdfsgkjh34jkh3k4j  And after all that, we have this trailing bit of text. 98765. Not sure if it's significant. Just here. end."
