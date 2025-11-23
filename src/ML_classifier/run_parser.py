@@ -17,6 +17,7 @@ import os
 import sys
 
 
+
 # Add project root to Python path
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../"))
 if ROOT not in sys.path:
@@ -61,11 +62,14 @@ def main():
     else:
         model_type = 'nlp'
 
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.abspath(os.path.join(script_dir, "../../"))
+
     if (model_type=='nlp'):
-        model_path = "../../models/NLP_model.pkl"
+        model_path = os.path.join(project_root, "models", "NLP_model.pkl")
         # print("Model path -> ",model_path)
     elif (model_type=='cnn'):
-        model_path = "../../models/CNN_model.pth"
+        model_path = os.path.join(project_root, "models", "CNN_model.pth")
         #model_path = os.path.join(MODELS_DIR, "CNN_model.pth")
     else:
         model_path = None

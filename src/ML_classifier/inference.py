@@ -27,6 +27,8 @@ from preprocessing import *
 from simple_check import *
 from training import *
 
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.abspath(os.path.join(script_dir, "../../"))
 '''
 The following functions are used to generate predictions on a test set (X_test is a list of strings, and y_test is an array of 1 or 0 values.) 
 1. Using a Heuristic (Non-ML model) which uses simple preprocessing.
@@ -239,7 +241,8 @@ def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
 
 def load_CNN(path_to_model="models/CNN_model.pth"):
     # char_encoder = CharEncoder() 
-    char_encoder = joblib.load("../../models/char_encoder.pkl")
+    char_encoder_path = os.path.join(project_root, "models", "char_encoder.pkl")
+    char_encoder = joblib.load(char_encoder_path)
     # print("Vocab size:", char_encoder.vocab_size)
     model = DNASequenceCNN(
         vocab_size=char_encoder.vocab_size,
@@ -320,14 +323,17 @@ def print_performance_for_adversarial_types(y_pred, y_test, type_test):
 #################################### Get predictions on Unseen Adversarial Dataset ####################################
 
 # generates predictions based on 
-def generate_predictions(input_list, model_type='nlp', model_path='../../models/CNN_model.pth'):
+def generate_predictions(input_list, model_type='nlp', model_path='models/CNN_model.pth'):
+    
     if (model_type=='nlp'):
         # Load pretrained weights
+        model_path = os.path.join(project_root, model_path)
         clf, scaler, tfidf_vec, alphabet = load_NLP(model_path)
         # generate predictions
         preds = get_pred_NLP(input_list, clf, scaler, tfidf_vec, alphabet)
     elif (model_type=='cnn'):
         # Load pretrained weights
+        model_path = os.path.join(project_root, model_path)
         model, char_encoder = load_CNN(model_path)
         # generate predictions
         preds = get_pred_CNN(input_list, model, char_encoder)
