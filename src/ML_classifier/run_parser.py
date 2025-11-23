@@ -71,7 +71,7 @@ def main():
     
     pred = generate_predictions([text], model_type, model_path)[0]
 
-    print(pred)
+    #print(pred)
 
     if(pred==1):
         print(f"FILE CONTAINS GENOMIC DATA - Sensitive content detected.")

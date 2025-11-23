@@ -18,6 +18,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 random.seed = 42
 import pickle as pkl
+import joblib
 from torch.utils.data import Dataset, DataLoader
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -210,11 +211,11 @@ class CharEncoder:
     0 is reserved for padding.
     Unknown characters map to 0 at test time.
     """
-    def __init__(self):
-        self.char2id = {}
+    def __init__(self, char2id={}, fitted= False, vocab_size=0):
+        self.char2id = char2id
         self.id2char = {}
-        self.fitted = False
-        self.vocab_size = 0
+        self.fitted = fitted
+        self.vocab_size = vocab_size
 
     def fit(self, texts):
         chars = sorted(list(set("".join(texts))))
@@ -364,4 +365,7 @@ def train_CNN(X_train, y_train, save_weights=False):
 
     if(save_weights):
         torch.save(model.state_dict(), "models/CNN_model.pth")
+        joblib.dump(char2id, "char2id.pkl")
+        joblib.dump(vocab_size, "vocab_size.pkl")
+        
     

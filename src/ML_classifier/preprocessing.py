@@ -126,8 +126,9 @@ def preprocess_text(text):
     We DO NOT filter characters, because DNA may be obfuscated.
     - Unicode detection processing
     """
-    text = text.lower().replace("\n", " ").replace("\t", " ")
     text = unicode_dna_preprocessor(text)
+    text = text.lower().replace("\n", " ").replace("\t", " ")
+    #text = unicode_dna_preprocessor(text)
     return text
 
 

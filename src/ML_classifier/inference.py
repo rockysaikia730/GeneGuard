@@ -67,6 +67,106 @@ def load_NLP(path_to_model="models/NLP_model.pkl"):
 
 ####### Testing (with windowing - if input is too long) #######
 
+
+# def unicode_dna_preprocessor(text: str) -> str:
+#     """
+#     Normalizes text by stripping invisible characters and transliterating 
+#     Unicode homoglyphs to ASCII to ensure clean genomic data.
+#     """
+#     # Standard Normalize (Fixes wide text 'Ａ' -> 'A')
+#     text = unicodedata.normalize('NFKC', text)
+    
+#     # Remove Invisible Characters (Category Cf = Format, Cc = Control)
+#     text = "".join(ch for ch in text if unicodedata.category(ch) not in ["Cf", "Cc"])
+    
+#     # Maps unicode to nearest ASCII
+#     text = unidecode(text)
+#     text = text.upper()
+
+#     return text
+
+
+# def preprocess_text(text):
+#     """
+#     Very minimal preprocessing:
+#     - Lowercase
+#     - Remove whitespace newlines
+#     We DO NOT filter characters, because DNA may be obfuscated.
+#     - Unicode detection processing
+#     """
+#     text = text.lower().replace("\n", " ").replace("\t", " ")
+#     #text = unicode_dna_preprocessor(text)
+#     return text
+
+
+# def get_kmers(text, k=3):
+#     """Extract k-mers without filtering characters."""
+#     kmers = []
+#     for i in range(len(text) - k + 1):
+#         kmers.append(text[i:i+k])
+#     return kmers
+
+
+# ######### Markov Transition Features #########
+
+
+# def markov_features(text, alphabet):
+#     """
+#     Build a Markov transition probability vector from:
+#     P(next_char | current_char)
+
+#     The output is flattened row-major into a single vector.
+#     """
+#     if len(text) < 2:
+#         return np.zeros(len(alphabet) * len(alphabet))
+
+#     index = {c: i for i, c in enumerate(alphabet)}
+
+#     # Transition counts
+#     trans = np.zeros((len(alphabet), len(alphabet)))
+
+#     for a, b in zip(text[:-1], text[1:]):
+#         if a in index and b in index:
+#             trans[index[a], index[b]] += 1
+
+#     row_sums = trans.sum(axis=1, keepdims=True)
+#     row_sums[row_sums == 0] = 1  
+#     trans = trans / row_sums
+
+#     return trans.flatten()
+
+
+# ######### Single-document Feature Extraction #########
+
+
+# def extract_features_single(
+#     text,
+#     k,
+#     tfidf_vectorizer,
+#     alphabet,
+#     fit_tfidf=False
+# ):
+#     """
+#     Extract TF-IDF + entropy + Markov vector.
+#     All vectors are guaranteed fixed length if:
+#     - TF-IDF was fit on the full training corpus
+#     - alphabet is global
+#     """
+#     pre = preprocess_text(text)
+#     kmers = get_kmers(pre, k)
+
+#     entropy = shannon_entropy(pre)
+#     markov_vec = markov_features(pre, alphabet)
+
+#     kmers_str = " ".join(kmers)
+
+#     if fit_tfidf:
+#         tfidf_vec = tfidf_vectorizer.fit_transform([kmers_str]).toarray()[0]
+#     else:
+#         tfidf_vec = tfidf_vectorizer.transform([kmers_str]).toarray()[0]
+
+#     return np.concatenate([tfidf_vec, [entropy], markov_vec])
+
 def classify_document(
     text,
     clf,
@@ -110,19 +210,12 @@ def classify_document(
 def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
     preds=[]
 
-    print("length of alphabet:", len(alphabet))
+    #print("length of alphabet:", len(alphabet))
     
     for test_doc in X_test:
-        print( "doc .... -> ",test_doc)
+        # print(repr(test_doc))
         test_doc = preprocess_text(test_doc)
-        print( "preprocesed doc .... -> ",test_doc)
-        print("class result",classify_document(
-        test_doc,
-        clf,
-        scaler,
-        tfidf_vec,
-        alphabet,
-        k=3))
+        # print(repr(test_doc))
         pred = classify_document(
         test_doc,
         clf,
@@ -133,7 +226,7 @@ def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
         preds.append(pred)
     
     preds = np.array(preds, dtype=np.int64)
-    print("Predictions stored.")
+    #print("Predictions stored.")
 
     return preds
 
@@ -145,7 +238,8 @@ def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
 ####### Load stored model #######
 
 def load_CNN(path_to_model="models/CNN_model.pth"):
-    char_encoder = CharEncoder()
+    #### unpickle
+    char_encoder = CharEncoder() ###### chnage
     print("Vocab size:", char_encoder.vocab_size)
     model = DNASequenceCNN(
         vocab_size=char_encoder.vocab_size,
@@ -168,7 +262,7 @@ def get_pred_CNN(X_test, model):
             test_doc_proc = preprocess_text(test_doc)
     
             # Transform + pad
-            test_seq = char_encoder.transform(test_doc_proc)
+            test_seq = char_encoder.transform(test_doc_proc) 
             test_seq = np.pad(test_seq, (0, max(0, max_len - len(test_seq))),
                               constant_values=0)
             test_seq = torch.tensor([test_seq], dtype=torch.long).to(device)
