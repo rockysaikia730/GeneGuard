@@ -365,7 +365,6 @@ def train_CNN(X_train, y_train, save_weights=False):
 
     if(save_weights):
         torch.save(model.state_dict(), "models/CNN_model.pth")
-        joblib.dump(char2id, "char2id.pkl")
-        joblib.dump(vocab_size, "vocab_size.pkl")
+        joblib.dump(char_encoder, "models/char_encoder.pkl")
         
     

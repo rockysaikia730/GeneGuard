@@ -65,7 +65,8 @@ def main():
         model_path = "../../models/NLP_model.pkl"
         # print("Model path -> ",model_path)
     elif (model_type=='cnn'):
-        model_path = os.path.join(MODELS_DIR, "CNN_model.pth")
+        model_path = "../../models/CNN_model.pth"
+        #model_path = os.path.join(MODELS_DIR, "CNN_model.pth")
     else:
         model_path = None
     

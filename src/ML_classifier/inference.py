@@ -238,25 +238,27 @@ def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
 ####### Load stored model #######
 
 def load_CNN(path_to_model="models/CNN_model.pth"):
-    #### unpickle
-    char_encoder = CharEncoder() ###### chnage
-    print("Vocab size:", char_encoder.vocab_size)
+    # char_encoder = CharEncoder() 
+    char_encoder = joblib.load("../../models/char_encoder.pkl")
+    # print("Vocab size:", char_encoder.vocab_size)
     model = DNASequenceCNN(
         vocab_size=char_encoder.vocab_size,
         embed_dim=32,
         num_classes=2
     ).to(device)
     
-    model.load_state_dict(torch.load(path_to_model))
+    #model.load_state_dict(torch.load(path_to_model))
+    state_dict = torch.load(path_to_model, map_location=torch.device('cpu'))
+    model.load_state_dict(state_dict)
     model.eval()   # set to inference mode
-    return model
+    return model, char_encoder
 
 ####### Get predictions on Test set #######
 
-def get_pred_CNN(X_test, model):
+def get_pred_CNN(X_test, model, char_encoder):
     preds_cnn = []
     probs_cnn = []
-    
+    max_len=28781 # from training corpora
     for test_doc in list(X_test):
         with torch.no_grad():
             test_doc_proc = preprocess_text(test_doc)
@@ -265,7 +267,9 @@ def get_pred_CNN(X_test, model):
             test_seq = char_encoder.transform(test_doc_proc) 
             test_seq = np.pad(test_seq, (0, max(0, max_len - len(test_seq))),
                               constant_values=0)
-            test_seq = torch.tensor([test_seq], dtype=torch.long).to(device)
+            #test_seq = torch.tensor([test_seq], dtype=torch.long).to(device)
+            test_seq = np.array(test_seq, dtype=np.int64)     # convert list to single numpy array
+            test_seq = torch.from_numpy(test_seq).long().unsqueeze(0).to(device)
     
             test_entropy = torch.tensor([[shannon_entropy(test_doc_proc)]],
                                         dtype=torch.float).to(device)
@@ -316,7 +320,7 @@ def print_performance_for_adversarial_types(y_pred, y_test, type_test):
 #################################### Get predictions on Unseen Adversarial Dataset ####################################
 
 # generates predictions based on 
-def generate_predictions(input_list, model_type='nlp', model_path=None):
+def generate_predictions(input_list, model_type='nlp', model_path='../../models/CNN_model.pth'):
     if (model_type=='nlp'):
         # Load pretrained weights
         clf, scaler, tfidf_vec, alphabet = load_NLP(model_path)
@@ -324,9 +328,9 @@ def generate_predictions(input_list, model_type='nlp', model_path=None):
         preds = get_pred_NLP(input_list, clf, scaler, tfidf_vec, alphabet)
     elif (model_type=='cnn'):
         # Load pretrained weights
-        model = load_CNN(model_path)
+        model, char_encoder = load_CNN(model_path)
         # generate predictions
-        preds = get_pred_CNN(input_list, model)
+        preds = get_pred_CNN(input_list, model, char_encoder)
     else: #heuristics
         preds = get_pred_heuristics(input_list)
     return preds
