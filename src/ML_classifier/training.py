@@ -23,8 +23,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 from utils import *
 from preprocessing import *
-from prep_training_data import *
-from heuristics.simple_check import *
+from simple_check import *
 from inference import *
 
 

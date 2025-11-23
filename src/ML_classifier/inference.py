@@ -19,12 +19,12 @@ import torch.nn.functional as F
 random.seed = 42
 import pickle as pkl
 from torch.utils.data import Dataset, DataLoader
+import joblib
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 from utils import *
 from preprocessing import *
-from prep_training_data import *
-from heuristics.simple_check import *
+from simple_check import *
 from training import *
 
 '''
@@ -62,7 +62,7 @@ def load_NLP(path_to_model="models/NLP_model.pkl"):
     tfidf_vec = model["tfidf"]
     scaler = model["scaler"]
     alphabet = model["alphabet"]
-    return clf, scaler, tfidf_vec, global_alphabet
+    return clf, scaler, tfidf_vec, alphabet
 
 
 ####### Testing (with windowing - if input is too long) #######
@@ -109,9 +109,20 @@ def classify_document(
 
 def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
     preds=[]
+
+    print("length of alphabet:", len(alphabet))
     
-    for test_doc in list(X_test):
+    for test_doc in X_test:
+        print( "doc .... -> ",test_doc)
         test_doc = preprocess_text(test_doc)
+        print( "preprocesed doc .... -> ",test_doc)
+        print("class result",classify_document(
+        test_doc,
+        clf,
+        scaler,
+        tfidf_vec,
+        alphabet,
+        k=3))
         pred = classify_document(
         test_doc,
         clf,
@@ -131,18 +142,18 @@ def get_pred_NLP(X_test, clf, scaler, tfidf_vec, alphabet):
 #################################### Get predictions for CNN Model ####################################
 
 
-
 ####### Load stored model #######
 
-def load_CNN(path_to_model="models/CNN_model.pkl"):
-    
+def load_CNN(path_to_model="models/CNN_model.pth"):
+    char_encoder = CharEncoder()
+    print("Vocab size:", char_encoder.vocab_size)
     model = DNASequenceCNN(
         vocab_size=char_encoder.vocab_size,
         embed_dim=32,
         num_classes=2
     ).to(device)
     
-    model.load_state_dict(torch.load("dna_cnn_weights.pth"))
+    model.load_state_dict(torch.load(path_to_model))
     model.eval()   # set to inference mode
     return model
 
@@ -211,15 +222,15 @@ def print_performance_for_adversarial_types(y_pred, y_test, type_test):
 #################################### Get predictions on Unseen Adversarial Dataset ####################################
 
 # generates predictions based on 
-def generate_predictions(input_list, model_type='nlp'):
+def generate_predictions(input_list, model_type='nlp', model_path=None):
     if (model_type=='nlp'):
         # Load pretrained weights
-        clf, scaler, tfidf_vec, alphabet = load_NLP("models/NLP_model.pkl")
+        clf, scaler, tfidf_vec, alphabet = load_NLP(model_path)
         # generate predictions
         preds = get_pred_NLP(input_list, clf, scaler, tfidf_vec, alphabet)
     elif (model_type=='cnn'):
         # Load pretrained weights
-        model = load_CNN("models/CNN_model.pkl")
+        model = load_CNN(model_path)
         # generate predictions
         preds = get_pred_CNN(input_list, model)
     else: #heuristics

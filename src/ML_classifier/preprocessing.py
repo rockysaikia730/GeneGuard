@@ -24,17 +24,13 @@ from unidecode import unidecode
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 from utils import *
-from prep_training_data import *
-from heuristics.simple_check import *
-from training import *
-from inference import *
-
+from simple_check import *
 
 
 #################################### Identify file type ####################################
 
 # A set of common bioinformatics/genomic file extensions.
-GENOMIC_EXTENSION = [
+GENOMIC_EXTENSIONS = [
     '.fastq', '.fq', '.fasta', '.fa', '.fna', '.gb', '.gff', '.gff3', '.gtf',
     '.sam', '.bam', '.cram', '.vcf', '.bcf', '.wig', '.bed', '.bigwig', '.tbi',
     '.tabix', '.h5', '.hdf5', # HDF5 often used for single-cell data (e.g., Anndata)
