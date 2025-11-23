@@ -48,3 +48,5 @@ dependencies:
     - google-genai
     # Utilities
     - unidecode
+    - scikit-learn
+    - pypdf
