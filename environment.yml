@@ -1,0 +1,40 @@
+name: gpt_sequence_finder
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.10
+  
+  # Jupyter
+  - jupyterlab
+  - notebook
+  - ipywidgets
+  
+  # Data science
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  
+  # Utilities
+  - tqdm
+  - pip
+  
+  # PyTorch + HuggingFace via pip (more reliable)
+  - pip:
+    # PyTorch - auto-detects CUDA
+    - torch>=2.1.0
+    - torchvision
+    - torchaudio
+    # HuggingFace ecosystem
+    - transformers>=4.36.0
+    - datasets>=2.14.0
+    - peft>=0.7.0
+    - accelerate>=0.25.0
+    - huggingface_hub
+    - tokenizers
+    - safetensors
+    - evaluate
