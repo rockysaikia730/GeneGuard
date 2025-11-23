@@ -59,7 +59,10 @@ To check the risk level of a specific text sequence using a trained checkpoint, 
 ```bash
 python genomic_detector_demo.py --checkpoint ./outputs/checkpoints/after_hard --threshold <Threshold> --text <text>
 ```
-
+Example
+```bash
+python genomic_detector_demo.py --checkpoint ../../outputs/checkpoints/after_hard --threshold 0.01 --text "Data stream contains: aTgC gAtC gAtC gAtC embedded in the output lo" 
+```
 ## Dataset
 
 For detailed information regarding the datasets used for training, testing, and validation of these models, please refer to **[DATASET.md](https://github.com/rockysaikia730/GeneGuard/blob/main/data/DATASET.md)**.
