@@ -1,8 +1,0 @@
-sequence,text_with_dna,text_without_dna
-CGCGCATAAAGGAAAAGCCGCGCTCAGCATCATCAAGTTGCGGTGAAGAGACGCCAAGATCGAGGAGAATGCCGTCGATCTTGCCGATAAGATCGCGCTCGGCAACGTATTCGCCCAGCGCGGAGAAAGGTCCGTGGATGATGGAGAAG,"Okay, here's the output with the DNA sequence embeddeALALAJZJJJLLJJJJLAALALAZAJLAJZAJZAJJLZZLALLZLJJLJLJALAAJJLJZALJLLJLJJZLAALZALJZAZZLAALJZJJLJZALALAZALLAJJALZJZZALAAAJLALALLJLJJJLLZAALZLLJZLJZLLJLJJLd as requested:
-
-The quick brown fox jumps over the lazy fox, or does it? That's a question for the ages, or at least for this silly example. Anyhow, here we go. This is a test.  Okay, now some more text. La di da. Testing, testing, 1, 2, 3. All done! I hope it works.
-","Okay, here's the output with the DNA sequence embedded as requested:
-
-The quick brown fox jumps over the lazy fox, or does it? That's a question for the ages, or at least for this silly example. Anyhow, here we go. This is a test.  Okay, now some more text. La di da. Testing, testing, 1, 2, 3. All done! I hope it works.
-"

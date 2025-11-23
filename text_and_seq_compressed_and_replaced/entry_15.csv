@@ -1,8 +1,0 @@
-sequence,compressed,text_with_dna,text_without_dna
-TAGCTATCTATTTTTGTAAGCAACTCAGGGATGCGCTTTAATTCAAGCGCGGGACGATGTTGTCGATTACAGGAAGCAACCGCCCCAGCCATCTCTTGTGCCGGGTTATAATCAATTAACCCACTTTGCACTGCATAGCGCATGATGGCTGTAGTGCGCTGCTGA,TAGCTATCTAT5GTA2GCA2CTCAG3ATGCGCT3A2T2CA2GCGCG3ACGATGT2GTCGAT2ACAG2A2GCA2C2GC4AGC2ATCTCT2GTGC2G3T2ATA2TCA2T2A2C3ACT3GCACTGCATAGCGCATGATG2CTGTAGTGCGCTGCTGA,"Okay, here's the output string containing the DNA sequence embedded in surrounding text:
-
-The quick brown fox jumps ov6rsS6r6S6r6s6rsSrS6Srsr6sSsS6r6SrsSsSsrSsr6s6s6Ssr6rSrsrsSrSsSrsSr6S6S6s6sSs6r6r6Sr6rSrS6sSrS6sSr6rsSsSr6sr6sS6s6rs6sSsS6sS6srer the lazy dog. Why did the chicken cross the road? To get to the other side! Also, listen to this:  that's all folks!
-","Okay, here's the output string containing the DNA sequence embedded in surrounding text:
-
-The quick brown fox jumps over the lazy dog. Why did the chicken cross the road? To get to the other side! Also, listen to this:  that's all folks!
-"
