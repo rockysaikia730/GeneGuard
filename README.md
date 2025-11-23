@@ -31,7 +31,7 @@ parse_and_classify(filepath, model="nlp")
 
 ### 2\. Command Line Interface (CLI)
 
-If you have cloned the repository, you can run inference directly from the terminal using the parser script.
+If you have cloned the repository, you can run inference directly from the terminal using the parser script. The file path entered must be absolute, and optionally the model type may be entered ('nlp', 'cnn', or 'rule-base').
 
 **Syntax:**
 
@@ -46,7 +46,7 @@ python ./src/ML_clasifier/run_parser.py <filepath> --model <model_type>
 | Model Name | Argument (`--model`) | Description |
 | :--- | :--- | :--- |
 | **NLP** | `nlp` | Uses Natural Language Processing techniques for classification. |
-| **CNN** | `cnn` | Uses a Convolutional Neural Network architecture. |
+| **CNN** | `cnn` | Uses a 1-D Convolutional Neural Network architecture. |
 | **Rule Based** | `rule-base` | Uses heuristic rules to parse and classify the file. |
 
 -----
