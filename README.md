@@ -53,4 +53,4 @@ python ./src/ML_clasifier/run_parser.py <filepath> --model <model_type>
 
 ## Dataset
 
-For detailed information regarding the datasets used for training, testing, and validation of these models, please refer to **[DATASET.md](https://www.google.com/search?q=DATASET.md)**.
+For detailed information regarding the datasets used for training, testing, and validation of these models, please refer to **[DATASET.md]([https://www.google.com/search?q=DATASET.md](https://github.com/rockysaikia730/GeneGuard/blob/main/data/DATASET.md))**.
