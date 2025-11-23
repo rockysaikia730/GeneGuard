@@ -9,6 +9,7 @@ You can install the package directly via pip:
 ```bash
 pip install gene-guard==0.1.0
 ````
+For full package details, see the [Gene-Guard PyPI page](https://pypi.org/project/gene-guard/).
 
 -----
 
