@@ -46,3 +46,5 @@ dependencies:
     - biopython
     # LLM
     - google-genai
+    # Utilities
+    - unidecode
