@@ -38,3 +38,11 @@ dependencies:
     - tokenizers
     - safetensors
     - evaluate
+    # OCR
+    - docling
+    - easyocr
+    # NCBI API
+    - ncbi-genome-download
+    - biopython
+    # LLM
+    - google-genai
